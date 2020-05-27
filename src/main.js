@@ -4,7 +4,9 @@ import './main.css'
 const app = new App({
   target: document.body,
   props: {
-    name: 'Garret Harp'
+    name: 'Garret Harp',
+    role: 'Full Stack Developer',
+    topSkills: ['Node.JS', 'Svelte', 'AWS']
   }
 })
 

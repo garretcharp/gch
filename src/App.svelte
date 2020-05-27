@@ -1,5 +1,7 @@
 <script>
-  export let name;
+  import Header from "./Components/Header.svelte";
+
+  export let name, role, topSkills;
 </script>
 
-<h1>Hello {name}!</h1>
+<Header {...{ name, role, topSkills }} />
