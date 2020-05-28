@@ -3,6 +3,7 @@
   import Hero from "./Components/Hero.svelte";
   import Skills from "./Components/Skills.svelte";
   import Projects from "./Components/Projects.svelte";
+  import Connect from "./Components/Connect.svelte";
 
   export let name,
     role,
@@ -25,3 +26,5 @@
 <Skills {...{ skills, skillHeading }} />
 
 <Projects {...{ projects, projectsHeading }} />
+
+<Connect {...{ email, linkedin, github }} />
