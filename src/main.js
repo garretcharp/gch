@@ -28,7 +28,15 @@ const app = new App({
             skillsWithHeadings: [
               {
                 subHeading: 'AWS',
-                skills: ['EC2', 'Lambda', 'DynamoDB', 'S3', 'API Gateway']
+                skills: [
+                  'EC2',
+                  'Lambda',
+                  'DynamoDB',
+                  'S3',
+                  'SNS',
+                  'SQS',
+                  'API Gateway'
+                ]
               },
               { subHeading: 'GCP', skills: ['Cloud Functions', 'App Engine'] },
               { subHeading: 'Cloudflare', skills: ['Workers', 'KV Storage'] }
