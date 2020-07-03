@@ -98,7 +98,7 @@ const app = new App({
           'Digital Ocean',
           'Braintree Payments'
         ],
-        link: 'https://smartclips.app'
+        link: 'https://github.com/Smart-Programs/smartclips'
       },
       {
         heading: 'SmartHost',
@@ -115,7 +115,7 @@ const app = new App({
           'AWS EC2',
           'Stripe Payments'
         ],
-        link: 'https://smarthostapp.com'
+        link: 'https://gitlab.com/smartprograms'
       },
       {
         heading: 'Seven Networks',
