@@ -2,6 +2,7 @@
   import EmailIcon from "../Images/email.svg";
   import LinkedinIcon from "../Images/linkedin.svg";
   import GithubIcon from "../Images/github.svg";
+  import ResumeIcon from "../Images/resume.svg";
 
   export let email, linkedin, github;
 </script>
@@ -18,8 +19,11 @@
       <a href={linkedin} class="m-4 w-16">
         <LinkedinIcon />
       </a>
-      <a href={github} class="ml-4 my-4 w-16">
+      <a href={github} class="m-4 w-16">
         <GithubIcon />
+      </a>
+      <a href='/downloads/Garret_Harp_Resume.pdf' download class="ml-4 my-4 w-12">
+        <ResumeIcon />
       </a>
     </div>
   </div>

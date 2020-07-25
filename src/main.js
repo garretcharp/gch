@@ -82,6 +82,20 @@ const app = new App({
     projectsHeading: 'My Work',
     projects: [
       {
+        heading: 'API of Cards',
+        description:
+          'An easy to use and free API for handling cards without needing a backend to save game states.',
+        image: 'apiof-cards.png',
+        subHeading: 'Built With',
+        tools: [
+          'Node.JS',
+          'Typescript',
+          'Vercel Serverless',
+          'AWS DynamoDB'
+        ],
+        link: 'https://apiof.cards'
+      },
+      {
         heading: 'SmartClips',
         description:
           'A tool that allows Mixer streamers to easily create, and share clips from their live streams.',
@@ -132,7 +146,7 @@ const app = new App({
           'PlayrGG is a service that allows businesses, and content creators to easily run legal giveaways to maximize their ROIs. My role requires me to automate tasks such as finding clients who would fit our product.',
         image: 'playrgg.jpg',
         subHeading: 'Built With',
-        tools: ['Node.JS'],
+        tools: ['Node.JS', 'MongoDB', 'MySQL'],
         link: 'https://playr.gg/'
       }
     ]
