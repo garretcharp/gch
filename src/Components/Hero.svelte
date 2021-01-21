@@ -29,7 +29,7 @@
         <a href={github} class="m-4 w-16">
         <GithubIcon />
       </a>
-      <a href='/downloads/Garret_Harp_Resume.pdf' download class="ml-4 my-4 w-12">
+      <a href='/downloads/Garret_Harp_Resume.PDF' download class="ml-4 my-4 w-12">
         <ResumeIcon />
       </a>
       </div>
